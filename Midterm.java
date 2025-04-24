@@ -4,12 +4,12 @@
  * 프로그램은 무한 반복되다가 exit라는 문자열이 입력되면 종료 됩니다.
  */
 
-import ; // (문제1) 다음 코드를 실행하기 위한 Scanner class를 import해 주세요.
+import java.util.Scanner; // (문제1) 다음 코드를 실행하기 위한 Scanner class를 import해 주세요.
 
 public class Midterm {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		while( ) { // (문제2) 무한루프를 실행할 수 있는 조건절을 입력하세요.
+		while(int  ) { // (문제2) 무한루프를 실행할 수 있는 조건절을 입력하세요.
 			System.out.print(">>");			
 			String s = scanner.nextLine(); 
 			StringBuffer sb = ; // (문제3) StringBuffer 객체 sb 생성할 수 있게 코드를 완성해 주세요.
